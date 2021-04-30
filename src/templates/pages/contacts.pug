@@ -1,0 +1,16 @@
+extends ../template
+
+block variables
+    - var title = 'Мои работы'
+
+block content
+    h1 Мои работы
+    p Пупкин Илья
+    p fsdf@gsfdg.com
+    p +7(978)-854-78-11
+    form
+        label(for="message_theme") Напишите мне
+        input(name="message_theme" id="message_theme")
+        label(for="message") Сообщение
+        textarea(name="message" id="message")
+        button Написать мне    
